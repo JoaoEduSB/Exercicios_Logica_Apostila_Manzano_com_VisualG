@@ -1,15 +1,16 @@
 Algoritmo "manzano_Pag25_Ex7_J"
-// Disciplina  :  Linguagem e Lógica de Programação com JS
+// Disciplina  : Linguagem e Lógica de Programação com JS
 // Professor   : Jailson Costa dos Santos
 // Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
+// Autor(a)    : João Eduardo
 // Data atual  : 07/04/2024
+
 Var
    // Seção de Declarações das variáveis
 total_dolar, cota_dolar, total_real: real
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+// Seção de Comandos, procedimento, funções, operadores, etc...
    
 // j) Elaborar um programa que efetue a apresentação do valor da conversão em
 // real de um valor lido em dólar. O programa deve solicitar o valor da

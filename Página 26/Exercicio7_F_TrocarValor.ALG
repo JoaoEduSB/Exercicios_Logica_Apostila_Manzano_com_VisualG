@@ -1,17 +1,18 @@
 Algoritmo "manzano_Pag25_Ex7_F"
-// Disciplina  : [Lógica de Programação com JavaScript]
+// Disciplina  : Lógica de Programação com JavaScript]
 // Professor   : Jailson Costa dos Santos
 // Descrição   : Troca de valores função)
-// Autor(a)    : João Eduardo Souza Barbosa
+// Autor(a)    : João Eduardo
 // Data atual  : 07/04/2024
-Var
-   // Seção de Declarações das variáveis
-   A: caractere
-   B: caractere
 
-   troca: caractere
+Var
+// Seção de Declarações das variáveis
+A: caractere
+B: caractere
+troca: caractere
+
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+// Seção de Comandos, procedimento, funções, operadores, etc...
 
 // f) Ler dois valores (inteiros, reais ou caracteres) para as variáveis A
 // e B, e efetuar a troca dos valores de forma que a variável A passe a

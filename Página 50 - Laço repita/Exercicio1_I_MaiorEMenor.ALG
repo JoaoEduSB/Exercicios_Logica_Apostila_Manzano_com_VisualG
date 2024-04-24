@@ -1,11 +1,12 @@
 Algoritmo "MANZANO_PAG50_EX1_i"
-// Disciplina   :  Linguagem e Lógica de Programação com JS
+// Disciplina  : Linguagem e Lógica de Programação com JS
 // Professor   : Jailson Costa dos Santos
 // Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
+// Autor(a)    : João Eduardo
 // Data atual  : 08/04/2024
+
 Var
-   // Seção de Declarações das variáveis
+// Seção de Declarações das variáveis
 valor, maior, menor: Inteiro
 
 Inicio
@@ -20,31 +21,31 @@ Inicio
   maior <- 0
     menor <- 0
 
-    Repita
+    repita
         Escreva("Digite um valor positivo (ou negativo para sair): ")
-        Leia(valor)
+        leia(valor)
 
-        Se (valor >= 0) Entao
-            Se (maior = 0) Ou (valor > maior) Entao
+        se (valor >= 0) entao
+            se (maior = 0) ou (valor > maior) entao
                 maior <- valor
-            FimSe
+            fimse
 
-            Se (menor = 0) Ou (valor < menor) Entao
+            se (menor = 0) ou (valor < menor) entao
                 menor <- valor
-            FimSe
-        FimSe
-    Ate valor < 0
+            fimse
+        fimse
+    ate valor < 0
 
-    Se maior > 0 Entao
+    se maior > 0 entao
         Escreval("O maior valor informado é: ", maior)
-    Senao
+    senao
         Escreval("Nenhum valor válido foi informado.")
-    FimSe
+    fimse
 
-    Se menor > 0 Entao
+    se menor > 0 entao
         Escreval("O menor valor informado é: ", menor)
-    Senao
+    senao
         Escreval("Nenhum valor válido foi informado.")
-    FimSe
+    fimse
     
 Fimalgoritmo

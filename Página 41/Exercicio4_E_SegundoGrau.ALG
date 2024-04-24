@@ -1,12 +1,13 @@
 Algoritmo "MANZANO_PAG41_EX4_E"
-// Disciplina   :  Linguagem e Lógica de Programação com JS
+// Disciplina  : Linguagem e Lógica de Programação com JS
 // Professor   : Jailson Costa dos Santos
 // Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
+// Autor(a)    : João Eduardo
 // Data atual  : 07/04/2024
+
 Var
    // Seção de Declarações das variáveis
-   A, B, C, Delta, Raiz1, Raiz2: Real
+   A, B, C, delta, raiz1, raiz2: Real
 
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc...
@@ -27,13 +28,13 @@ Inicio
       Escreva("Digite o valor de C: ")
       Leia(C)
 
-      Delta <- B^2 - 4*A*C
+      delta <- B^2 - 4*A*C
 
-      Se Delta < 0 Então
+      Se delta < 0 Então
          Escreva("A equação não possui raízes reais.")
       Senão
-         Raiz1 <- (-B + RaizQuadrada(Delta)) / (2*A)
-         Raiz2 <- (-B - RaizQuadrada(Delta)) / (2*A)
+         raiz1 <- (-B + RaizQuadrada(delta)) / (2*A)
+         raiz2 <- (-B - RaizQuadrada(delta)) / (2*A)
       fimse
    fimse
 

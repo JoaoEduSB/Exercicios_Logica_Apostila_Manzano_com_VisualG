@@ -1,12 +1,13 @@
 Algoritmo "MANZANO_PAG50_EX1_F"
-// Disciplina   :  Linguagem e Lógica de Programação com JS
+// Disciplina  : Linguagem e Lógica de Programação com JS
 // Professor   : Jailson Costa dos Santos
 // Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
+// Autor(a)    : João Eduardo
 // Data atual  : 08/04/2024
+
 Var
-   // Seção de Declarações das variáveis
-   valor, totalSomatorio, totalValores: Real
+// Seção de Declarações das variáveis
+valor, totalSomatorio, totalValores: Real
 
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc...
@@ -25,21 +26,22 @@ Inicio
    totalValores <- 0
    valor <- 0
 
-   Repita
+   repita
       Escreva("Digite um valor (negativo para sair): ")
-      Leia(valor)
+      leia(valor)
 
-      Se valor >= 0 Entao
+      se (valor >= 0) entao
          totalSomatorio <- totalSomatorio + valor
          totalValores <- totalValores + 1
-      FimSe
-   Ate valor < 0
+      fimse
+   ate (valor < 0)
 
-   Se totalValores > 0 Entao
-      Escreval("O total do somatório é: ", totalSomatorio)
-      Escreval("A média aritmética é: ", totalSomatorio / totalValores)
-      Escreval("O total de valores lidos é: ", totalValores)
-   Senao
+   se (totalValores > 0) entao
+      Escreval("O total do somatório é:", totalSomatorio)
+      Escreval("A média aritmética é:", totalSomatorio / totalValores)
+      Escreval("O total de valores lidos é:", totalValores)
+   senao
       Escreval("Nenhum valor válido foi inserido.")
-   FimSe
+   fimse
+   
 Fimalgoritmo

@@ -1,13 +1,15 @@
 Algoritmo "MANZANO_PAG66_EX1_H"
-// Disciplina   :  Linguagem e Lógica de Programação com JS
+// Disciplina  : Linguagem e Lógica de Programação com JS
 // Professor   : Jailson Costa dos Santos
 // Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
+// Autor(a)    : João Eduardo
 // Data atual  : 08/04/2024
+
 Var
-   // Seção de Declarações das variáveis
-   base, expoente : inteiro
-   resultado: real
+// Seção de Declarações das variáveis
+base, expoente : inteiro
+resultado: real
+
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc...
 
@@ -19,9 +21,9 @@ Inicio
    escreval("Vamos exibir o resultado das potências de 3, de 0 até 15")
    escreval
 
+   base <- 3
+   
    para expoente de 0 ate 15 faca
-
-      base <- 3
 
       resultado <- exp(base(expoente))
 
@@ -34,7 +36,7 @@ Inicio
          fimse
       fimse
 
-      escreval("O resultado da base 3 elevado a",expoente," é: ", resultado)
+      escreval("O resultado da base 3 elevado a",expoente," é:", resultado)
    fimpara
 
 Fimalgoritmo

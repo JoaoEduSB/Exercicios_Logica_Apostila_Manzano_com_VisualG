@@ -1,11 +1,12 @@
 Algoritmo "MANZANO_PAG41_EX4_J"
-// Disciplina   :  Linguagem e Lógica de Programação com JS
+// Disciplina  : Linguagem e Lógica de Programação com JS
 // Professor   : Jailson Costa dos Santos
 // Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
+// Autor(a)    : João Eduardo
 // Data atual  : 07/04/2024
+
 Var
-   // Seção de Declarações das variáveis
+// Seção de Declarações das variáveis
 numero: inteiro
 
 Inicio
@@ -29,6 +30,5 @@ Inicio
    se (numero >= 0) ou (numero <=9) entao
    escreva("O valor está na faixa permitida")
    fimse
-
 
 Fimalgoritmo

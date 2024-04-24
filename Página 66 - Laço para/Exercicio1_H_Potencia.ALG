@@ -1,13 +1,15 @@
 Algoritmo "MANZANO_PAG66_EX1_H"
-// Disciplina   :  Linguagem e Lógica de Programação com JS
+// Disciplina  : Linguagem e Lógica de Programação com JS
 // Professor   : Jailson Costa dos Santos
 // Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
+// Autor(a)    : João Eduardo
 // Data atual  : 08/04/2024
+
 Var
-   // Seção de Declarações das variáveis
-base, expoente: inteiro
+// Seção de Declarações das variáveis
+base, expoente, contadora: inteiro
 resultado: real
+
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc...
 
@@ -16,16 +18,18 @@ Inicio
 // BE, em que B é o valor da base e E o valor do expoente. Observe que neste
 // exercício não pode ser utilizado o operador de exponenciação do portuguol (^).
 
-Escreval("Vamos calcular uma potência?")
-Escreva("Digite a base que deseja calcular: ")
-leia (base)
-Escreva("Digite o expoente que deseja calcular: ")
-leia (expoente)
+   Escreval("Vamos calcular uma potência?")
+   Escreva("Digite a base que deseja calcular: ")
+   leia (base)
+   Escreva("Digite o expoente que deseja calcular: ")
+   leia (expoente)
 
-resultado <- exp(base(expoente)
+   resultado <- 1
 
-escreval("O resultado da potência com base", base," e expoente", expoente," é:", resultado)
+   para contadora de 1 ate expoente faca
+      resultado <- resultado * base
+   fimpara
 
-
+   escreval("O resultado da potência com base", base," e expoente", expoente," é:", resultado)
 
 Fimalgoritmo

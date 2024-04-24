@@ -1,8 +1,8 @@
 Algoritmo "manzano_Pag41_Ex4_C"
-// Disciplina  :  Linguagem e Lógica de Programação com JS
+// Disciplina  : Linguagem e Lógica de Programação com JS
 // Professor   : Jailson Costa dos Santos
 // Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
+// Autor(a)    : João Eduardo
 // Data atual  : 07/04/2024
 
 Var
@@ -31,7 +31,7 @@ leia(nota3)
 escreva("Digite a quarta nota: ")
 leia(nota4)
 
-media <- nota1 + nota2 + nota3 + nota4 / 4
+media <- (nota1 + nota2 + nota3 + nota4) / 4
 
 se media >= 5 entao
    resultado <- ("Aprovado")
@@ -43,9 +43,3 @@ escreval("A média do aluno foi:", media)
 escreva("O aluno foi ", resultado)
 
 Fimalgoritmo
-
-
-
-
-
-

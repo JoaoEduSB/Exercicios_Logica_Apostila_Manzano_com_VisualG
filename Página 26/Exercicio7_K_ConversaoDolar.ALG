@@ -1,11 +1,12 @@
 Algoritmo "manzano_Pag25_Ex7_K"
-// Disciplina  :  Linguagem e Lógica de Programação com JS
+// Disciplina  : Linguagem e Lógica de Programação com JS
 // Professor   : Jailson Costa dos Santos
 // Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
+// Autor(a)    : João Eduardo
 // Data atual  : 07/04/2024
+
 Var
-   // Seção de Declarações das variáveis
+// Seção de Declarações das variáveis
 total_real, cota_dolar, total_dolar: real
 
 Inicio
@@ -24,6 +25,6 @@ leia(cota_dolar)
 
 total_dolar <- total_real / cota_dolar
 
-escreva("A conversão resultará em: $", total_dolar:2:2," Dólares")
+escreva("A conversão resultará em: $", total_dolar:2:2," dólares")
 
 Fimalgoritmo

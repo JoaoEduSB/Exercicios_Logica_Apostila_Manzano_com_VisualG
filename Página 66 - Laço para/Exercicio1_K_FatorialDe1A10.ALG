@@ -1,12 +1,14 @@
 Algoritmo "MANZANO_PAG66_EX1_K"
-// Disciplina   :  Linguagem e Lógica de Programação com JS
+// Disciplina  : Linguagem e Lógica de Programação com JS
 // Professor   : Jailson Costa dos Santos
 // Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
+// Autor(a)    : João Eduardo
 // Data atual  : 08/04/2024
+
 Var
-   // Seção de Declarações das variáveis
-   numero, fatorial, i: inteiro
+// Seção de Declarações das variáveis
+numero, fatorial, contadora: inteiro
+
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc...
 
@@ -18,13 +20,12 @@ Inicio
    para numero de 1 ate 10 faca
       se numero % 2 <> 0 entao
          fatorial <- 1
-         para i de 1 ate numero faca
-            fatorial <- fatorial * i
+         para contadora de 1 ate numero faca
+            fatorial <- fatorial * contadora
          fimpara
-         escreval("O fatorial de ", numero," é ", fatorial)
+         escreval("O fatorial de", numero," é", fatorial)
 
       fimse
    fimpara
-
 
 Fimalgoritmo

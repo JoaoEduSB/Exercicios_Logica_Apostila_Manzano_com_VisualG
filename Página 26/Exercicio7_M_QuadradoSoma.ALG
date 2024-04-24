@@ -1,9 +1,10 @@
 Algoritmo "manzano_Pag25_Ex7_M"
-// Disciplina  :  Linguagem e Lógica de Programação com JS
+// Disciplina  : Linguagem e Lógica de Programação com JS
 // Professor   : Jailson Costa dos Santos
 // Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
+// Autor(a)    : João Eduardo
 // Data atual  : 07/04/2024
+
 Var
    // Seção de Declarações das variáveis
 valorA, valorB, valorC, soma, resultado: real
@@ -31,13 +32,5 @@ resultado <- soma ^ 2
 escreval
 
 escreval("O quadrado da soma dos três valores é: ", resultado)
-
-
-
-
-
-
-
-
 
 Fimalgoritmo

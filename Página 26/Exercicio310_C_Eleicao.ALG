@@ -1,12 +1,14 @@
 Algoritmo "manzano_Pag26_Ex310_C"
-// Disciplina  :  Linguagem e Lógica de Programação com JS
+// Disciplina  : Linguagem e Lógica de Programação com JS
 // Professor   : Jailson Costa dos Santos
 // Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
+// Autor(a)    : João Eduardo
 // Data atual  : 07/04/2024
+
 Var
-   votos_A, votos_B, votos_C, votos_nulos, votos_branco, total_votos: Inteiro
-   percentual_validos, percentual_A, percentual_B, percentual_C, percentual_nulos, percentual_branco: Real
+votos_A, votos_B, votos_C, votos_nulos, votos_brancos, total_votos: Inteiro
+percentual_validos, percentual_A, percentual_B, percentual_C: Real
+percentual_nulos, percentual_branco: Real
 
 Inicio
 
@@ -39,16 +41,16 @@ Inicio
    Leia(votos_nulos)
 
    Escreva("Digite a quantidade de votos em branco: ")
-   Leia(votos_branco)
+   Leia(votos_brancos)
 
-   total_votos <- votos_A + votos_B + votos_C + votos_nulos + votos_branco
+   total_votos <- votos_A + votos_B + votos_C + votos_nulos + votos_brancos
 
    percentual_validos <- ((votos_A + votos_B + votos_C) / total_votos) * 100
    percentual_A <- (votos_A / total_votos) * 100
    percentual_B <- (votos_B / total_votos) * 100
    percentual_C <- (votos_C / total_votos) * 100
    percentual_nulos <- (votos_nulos / total_votos) * 100
-   percentual_branco <- (votos_branco / total_votos) * 100
+   percentual_branco <- (votos_brancos / total_votos) * 100
 
    Escreval("Número total de eleitores: ", total_votos)
    Escreval("Percentual de votos válidos em relação à quantidade de eleitores: ", percentual_validos, "%")
@@ -58,4 +60,4 @@ Inicio
    Escreval("Percentual de votos nulos em relação à quantidade de eleitores: ", percentual_nulos, "%")
    Escreval("Percentual de votos em branco em relação à quantidade de eleitores: ", percentual_branco, "%")
    
-   fimalgoritmo
+fimalgoritmo

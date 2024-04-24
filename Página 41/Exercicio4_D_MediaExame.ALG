@@ -1,13 +1,13 @@
 Algoritmo "manzano_Pag41_Ex4_D"
-// Disciplina  :  Linguagem e Lógica de Programação com JS
+// Disciplina  : Linguagem e Lógica de Programação com JS
 // Professor   : Jailson Costa dos Santos
 // Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
+// Autor(a)    : João Eduardo
 // Data atual  : 07/04/2024
 
 Var
-   nota1, nota2, nota3, nota4, media, media2, notaExame: real
-   resultado: caractere
+nota1, nota2, nota3, nota4, media, media2, notaExame: real
+resultado: caractere
 
 Inicio
 
@@ -70,15 +70,15 @@ Inicio
       fimse
    fimenquanto
 
-   media <- nota1 + nota2 + nota3 + nota4 / 4
+   media <- (nota1 + nota2 + nota3 + nota4) / 4
    se media >= 7 entao
 
       resultado <- ("Aprovado")
-      escreval("Média do aluno:", media:1:0)
+      escreval("Média do aluno:", media:2:2)
       escreva("O aluno foi ", resultado)
 
    senao
-   
+      escreval("O aluno não foi aprovado com a média: ", media)
       escreval("Qual foi a sua nota de exame?")
       escreva("Digite a nota: ")
       leia(notaExame)
@@ -93,22 +93,14 @@ Inicio
          fimse
       fimenquanto
       
-      
-      
-      media2 <- media + notaExame / 2
+      media2 <- (media + notaExame) / 2
       
       se media2 >= 5 entao
          escreval("Aprovado em exame")
-         escreva("Média do aluno: ", media2:1:0)
+         escreva("Média do aluno: ", media2:2:2)
       senao
          escreva("Reprovado em exame")
       fimse
    fimse
 
 Fimalgoritmo
-
-
-
-
-
-

@@ -1,8 +1,8 @@
 Algoritmo "manzano_Pag25_Ex7_G"
-// Disciplina  : [Lógica de Programação com JavaScript]
+// Disciplina  : Lógica de Programação com JavaScript
 // Professor   : Jailson Costa dos Santos
 // Descrição   : Ler quatro números inteiros e apresentar o resultado da adição e multiplicação
-// Autor(a)    : João Eduardo Souza Barbosa
+// Autor(a)    : João Eduardo
 // Data atual  : 07/04/2024
 
 Var

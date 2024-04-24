@@ -1,11 +1,12 @@
 Algoritmo "MANZANO_PAG41_EX4_K"
-// Disciplina   :  Linguagem e Lógica de Programação com JS
+// Disciplina  : Linguagem e Lógica de Programação com JS
 // Professor   : Jailson Costa dos Santos
 // Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
+// Autor(a)    : João Eduardo
 // Data atual  : 07/04/2024
+
 Var
-   // Seção de Declarações das variáveis
+// Seção de Declarações das variáveis
 numero: inteiro
 
 Inicio
@@ -17,13 +18,14 @@ Inicio
    Escreva("Digite um número inteiro, se o valor for menor que 3 será exibido abaixo:")
 
    numero <- 1
+   
    enquanto (numero <= 3) ou (numero > 3) faca
    leia (numero)
-   se (numero <= 3) entao
+   
+   se (numero < 3) entao
    escreval("o número digitado é menor que 3: ",numero)
    fimse
-   fimenquanto
    
-
+   fimenquanto
    
 Fimalgoritmo

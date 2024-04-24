@@ -1,11 +1,12 @@
 Algoritmo "manzano_Pag26_Ex310_B"
-// Disciplina  :  Linguagem e Lógica de Programação com JS
+// Disciplina  : Linguagem e Lógica de Programação com JS
 // Professor   : Jailson Costa dos Santos
 // Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
+// Autor(a)    : João Eduardo
 // Data atual  : 07/04/2024
+
 Var
-   salarioAtual, reajuste, novoSalario: Real
+salarioAtual, reajuste, novoSalario: Real
 
 Inicio
 
@@ -23,4 +24,4 @@ Inicio
 
    Escreva("O novo salário é: R$", novoSalario)
 
-   fimalgoritmo
+fimalgoritmo

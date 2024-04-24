@@ -1,14 +1,15 @@
 Algoritmo "MANZANO_PAG50_EX1_H"
-// Disciplina   :  Linguagem e Lógica de Programação com JS
+// Disciplina  : Linguagem e Lógica de Programação com JS
 // Professor   : Jailson Costa dos Santos
 // Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
+// Autor(a)    : João Eduardo
 // Data atual  : 08/04/2024
+
 Var
-   // Seção de Declarações das variáveis
-    nomeComodo: caractere
-    largura, comprimento, areaComodo, areaTotal: Real
-    continuar: Caractere
+// Seção de Declarações das variáveis
+nomeComodo: caractere
+largura, comprimento, areaComodo, areaTotal: Real
+continuar: Caractere
 
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc...
@@ -25,25 +26,31 @@ Inicio
 
   areaTotal <- 0
 
-    Repita
+    repita
         Escreva("Digite o nome do cômodo: ")
-        Leia(nomeComodo)
+        leia(nomeComodo)
 
         Escreva("Digite a largura do cômodo em metros: ")
-        Leia(largura)
+        leia(largura)
 
         Escreva("Digite o comprimento do cômodo em metros: ")
-        Leia(comprimento)
+        leia(comprimento)
 
         areaComodo <- largura * comprimento
         areaTotal <- areaTotal + areaComodo
 
-        Escreva("A área do cômodo ", nomeComodo, " é ", areaComodo, " metros quadrados.")
+        Escreval("A área do cômodo ", nomeComodo, " é", areaComodo, " metros quadrados.")
 
+        Escreval
+        
         Escreva("Deseja calcular outro cômodo? (Sim/Nao): ")
-        Leia(continuar)
+        leia(continuar)
 
-    Ate (continuar = "Nao")
+        Escreval
+        
+    ate (continuar = "Não")
 
-    Escreva("A área total da residência é ", areaTotal, " metros quadrados.")
+    Escreva("A área total da residência é", areaTotal, " metros quadrados.")
+    Escreval
+    
 Fimalgoritmo

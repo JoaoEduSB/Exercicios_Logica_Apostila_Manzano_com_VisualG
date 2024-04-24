@@ -1,12 +1,14 @@
 Algoritmo "MANZANO_PAG66_EX1_i"
-// Disciplina   :  Linguagem e Lógica de Programação com JS
+// Disciplina  : Linguagem e Lógica de Programação com JS
 // Professor   : Jailson Costa dos Santos
 // Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
+// Autor(a)    : João Eduardo
 // Data atual  : 08/04/2024
+
 Var
-   // Seção de Declarações das variáveis
-   anterior, atual, proximo, contagem: inteiro
+// Seção de Declarações das variáveis
+anterior, atual, proximo, contagem: inteiro
+
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc...
    

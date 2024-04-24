@@ -1,12 +1,13 @@
 Algoritmo "MANZANO_PAG41_EX4_H"
-// Disciplina   :  Linguagem e Lógica de Programação com JS
+// Disciplina  : Linguagem e Lógica de Programação com JS
 // Professor   : Jailson Costa dos Santos
 // Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
+// Autor(a)    : João Eduardo
 // Data atual  : 07/04/2024
+
 Var
-   // Seção de Declarações das variáveis
-   contador, numero, maior, menor: Inteiro
+// Seção de Declarações das variáveis
+contador, numero, maior, menor: Inteiro
 
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc...
@@ -15,25 +16,25 @@ Inicio
 // menor valores.
 
    Escreva("Digite o 1º número inteiro: ")
-   Leia(numero)
+   leia(numero)
 
    maior <- numero
    menor <- numero
 
-   Para contador de 2 até 5 Faça
+   para contador de 2 até 5 Faça
       Escreva("Digite o ", contador, "º número inteiro: ")
-      Leia(numero)
+      leia(numero)
 
-      Se numero > maior Então
+      se numero > maior Então
          maior <- numero
       senao
-         Se numero < menor Então
+         se numero < menor Então
             menor <- numero
-         FimSe
+         fimse
       fimse
-   FimPara
+   fimpara
+   
    Escreval("O maior número é: ", maior)
    Escreva("O menor número é: ", menor)
-
 
 Fimalgoritmo

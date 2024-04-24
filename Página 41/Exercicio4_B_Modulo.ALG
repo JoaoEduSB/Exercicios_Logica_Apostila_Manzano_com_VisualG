@@ -1,12 +1,12 @@
 Algoritmo "manzano_Pag41_Ex4_B"
-// Disciplina  :  Linguagem e Lógica de Programação com JS
+// Disciplina  : Linguagem e Lógica de Programação com JS
 // Professor   : Jailson Costa dos Santos
 // Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
+// Autor(a)    : João Eduardo
 // Data atual  : 07/04/2024
 
 Var
-   numero, absoluto: Inteiro
+numero, absoluto: Inteiro
 
 Inicio
 
@@ -16,20 +16,14 @@ Inicio
 // número fornecido é menor que zero; sendo, multiplique-o por -1.
 
    Escreva("Digite um valor inteiro: ")
-   Leia(numero)
+   leia(numero)
 
-   Se numero < 0 Então
+   se numero < 0 Então
       absoluto <- numero * -1
-   Senao
+   senao
       absoluto <- numero
-   Fimse
+   fimse
 
    Escreva("O valor absoluto do número é:", absoluto)
 
 Fimalgoritmo
-
-
-
-
-
-

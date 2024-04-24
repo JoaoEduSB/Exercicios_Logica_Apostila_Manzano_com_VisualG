@@ -1,13 +1,14 @@
 Algoritmo "MANZANO_PAG50_EX1_D"
-// Disciplina   :  Linguagem e Lógica de Programação com JS
+// Disciplina  : Linguagem e Lógica de Programação com JS
 // Professor   : Jailson Costa dos Santos
 // Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
+// Autor(a)    : João Eduardo
 // Data atual  : 08/04/2024
+
 Var
-   // Seção de Declarações das variáveis
- quadrado: inteiro
- totalGraos, graos: Real
+// Seção de Declarações das variáveis
+quadrado: inteiro
+totalGraos, graos: Real
  
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc...
@@ -24,15 +25,15 @@ Inicio
 
    Escreval("Vamos calcular o somatório dos grãos de trigo que podemos obeter num tabuleiro de xadrez")
 
-    totalGraos <- 0
+    totalGraos <- 1
     graos <- 1
     quadrado <- 1
 
-    Repita
+    repita
         totalGraos <- totalGraos + graos
         graos <- graos * 2
         quadrado <- quadrado + 1
-    Até quadrado > 64
+    ate quadrado > 64
 
     Escreva("O total de grãos de trigo no tabuleiro é: ", totalGraos)
 

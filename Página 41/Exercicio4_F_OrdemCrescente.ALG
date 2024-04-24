@@ -1,12 +1,13 @@
 Algoritmo "MANZANO_PAG41_EX4_F"
-// Disciplina   :  Linguagem e Lógica de Programação com JS
+// Disciplina  : Linguagem e Lógica de Programação com JS
 // Professor   : Jailson Costa dos Santos
 // Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
+// Autor(a)    : João Eduardo
 // Data atual  : 07/04/2024
+
 Var
-   // Seção de Declarações das variáveis
-   valorA, valorB, valorC, troca: inteiro
+// Seção de Declarações das variáveis
+valorA, valorB, valorC, troca: inteiro
 
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc...
@@ -25,21 +26,23 @@ Inicio
    Escreva("Digite o terceiro valor: ")
    leia(valorC)
 
-   Se valorA > valorB Então
+   se valorA > valorB entao
       troca <- valorA
       valorA <- valorB
       valorB <- troca
-   FimSe
-   Se valorB > valorC Então
+   fimse
+   
+   se valorB > valorC entao
       troca <- valorB
       valorB <- valorC
       valorC <- troca
-   FimSe
-   Se valorA > valorB Então
+   fimse
+   
+   se valorA > valorB entao
       troca <- valorA
       valorA <- valorB
       valorB <- troca
-   FimSe
+   fimse
 
    Escreva("Os valores em ordem crescente são: ", valorA, ", ", valorB, ", ", valorC)
 
